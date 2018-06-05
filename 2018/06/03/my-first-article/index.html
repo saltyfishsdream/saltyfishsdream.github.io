@@ -660,15 +660,6 @@
   <span class="author" itemprop="copyrightHolder">saltyfish</span>
 
   
-    <span class="post-meta-divider">|</span>
-    <span class="post-meta-item-icon">
-      <i class="fa fa-area-chart"></i>
-    </span>
-    
-      <span class="post-meta-item-text">Site words total count&#58;</span>
-    
-    <span title="Site words total count"></span>
-  
 </div>
 
 <div class="powered-by">
@@ -880,13 +871,13 @@
   
 
 <div id="hexo-helper-live2d">
-  <canvas id="live2dcanvas" width="150" height="300"></canvas>
+  <canvas id="live2dcanvas" width="150" height="350"></canvas>
 </div>
 <style>
   #live2dcanvas{
     position: fixed;
     width: 150px;
-    height: 300px;
+    height: 350px;
     opacity:0.7;
     right: 0px;
     z-index: 999;
@@ -899,8 +890,9 @@
 const loadScript = function loadScript(c,b){var a=document.createElement("script");a.type="text/javascript";"undefined"!=typeof b&&(a.readyState?a.onreadystatechange=function(){if("loaded"==a.readyState||"complete"==a.readyState)a.onreadystatechange=null,b()}:a.onload=function(){b()});a.src=c;document.body.appendChild(a)};
 (function(){
   if((typeof(device) != 'undefined') && (device.mobile())){
-    document.getElementById("live2dcanvas").style.width = '75px';
-    document.getElementById("live2dcanvas").style.height = '150px';
+    var trElement = document.getElementById('hexo-helper-live2d');
+    trElement.parentNode.removeChild(trElement);
+    return;
   }else
     if (typeof(device) === 'undefined') console.error('Cannot find current-device script.');
   loadScript("/live2d/script.js", function(){loadlive2d("live2dcanvas", "/live2d/assets/hibiki.model.json", 0.5);});
