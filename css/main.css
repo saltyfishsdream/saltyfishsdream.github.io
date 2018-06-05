@@ -1986,7 +1986,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff8b1a;
+  background: #6bffcd;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3170,8 +3170,8 @@ img:hover {
   text-decoration: underline;
 }
 body {
-  background-image: url("/images/background.jpg");
+  background-image: url("/images/background2.jpg");
   background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: contain;
 }
