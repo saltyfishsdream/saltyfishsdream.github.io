@@ -8,18 +8,9 @@
         <category>项目</category>
       </categories>
       <tags>
-        <tag>-OpenCV -机器学习 -Python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[my first article]]></title>
-    <url>%2F2018%2F06%2F03%2Fmy-first-article%2F</url>
-    <content type="text"><![CDATA[这是一个尝试]]></content>
-      <categories>
-        <category>try</category>
-      </categories>
-      <tags>
-        <tag>emmmmm</tag>
+        <tag>OpenCV</tag>
+        <tag>机器学习</tag>
+        <tag>Python</tag>
       </tags>
   </entry>
 </search>
