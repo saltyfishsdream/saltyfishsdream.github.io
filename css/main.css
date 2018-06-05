@@ -1986,7 +1986,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ba8bc6;
+  background: #8e6f73;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3169,7 +3169,7 @@ img:hover {
   color: #0477ab;
   text-decoration: underline;
 }
-.body {
+body {
   background-image: url("/images/background2.jpg");
   background-attachment: fixed;
   background-repeat: repeat;
@@ -3180,18 +3180,6 @@ img:hover {
 }
 .site-meta {
   background: #bbb;
-}
-header {
-  width: 90%;
-}
-.container .main-inner {
-  width: 90%;
-}
-.content-wrap {
-  width: calc(100% - 260px);
-}
-.container .header-inner {
-  width: 90%;
 }
 @font-face {
   font-family: fangzhengshuiyun;
