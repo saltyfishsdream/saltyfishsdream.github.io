@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>saltyfishsblog</title>
   
-  
+  <subtitle>咸鱼的博客，咸鱼的梦</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
